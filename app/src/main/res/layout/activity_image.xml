@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/blind1"
+    tools:context=".Image">
+
+    <GridView
+        android:id="@+id/gv"
+        android:layout_width="match_parent"
+        android:layout_height="621dp"
+        android:layout_weight="1"
+        android:numColumns="1"></GridView>
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="227dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/custom_button"
+        android:text="Select Multiple Images"
+        android:textColor="#FFFF" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/custom_button"
+        android:onClick="btnClick"
+        android:text="call"
+        android:textColor="#FFFF" />
+
+
+
+</LinearLayout>
